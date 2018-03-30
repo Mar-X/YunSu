@@ -6,6 +6,8 @@
     <naviga-tionBar></naviga-tionBar>
     <!-- 固定栏 -->
     <top-barup></top-barup>
+    <!-- 轮播图 -->
+    <rotation-chart></rotation-chart>
     <!-- 最外层容器 -->
     <div class="suCloudBox">
         <!-- 限时特惠 -->
@@ -176,6 +178,7 @@ import NavigaTionBar from '@/components/navigationBar/navigationBar'
 import BottomRail from '@/components/bottomRail/bottomRail'
 import SideFunction from '@/components/sideFunction/sideFunction'
 import TopBarup from '@/components/Topbarup/Topbarup'
+import RotationChart from '@/components/rotationChart/rotationChart'
 
 export default {
   name: 'home',
@@ -189,7 +192,8 @@ export default {
       NavigaTionBar,
       BottomRail,
       SideFunction,
-      TopBarup
+      TopBarup,
+      RotationChart
   }
 }
 </script>

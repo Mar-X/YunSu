@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+
 // 路由
 import Home from '@/page/Home/Home'
 import Products from '@/page/Products/Products'
 import Flagship from '@/page/Flagship/Flagship'
 import ShopDetails from '@/page/ShopDetails/ShopDetails'
+import NotFound from '@/page/NotFound'
 
 
 
@@ -33,6 +35,11 @@ export default new Router({
             path: '/shopdetails',
             name: 'ShopDetails',
             component: ShopDetails
+        },
+        {
+            path: '*',
+            name: 'NotFound',
+            component: NotFound
         }
 
     ]
