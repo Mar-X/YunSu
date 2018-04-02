@@ -3,7 +3,17 @@
     <!-- 顶栏 -->
     <top-bar></top-bar>
     <naviga-tionBar></naviga-tionBar>
-    <h1>商品品牌</h1>
+        <!-- 最外层容器 -->
+    <div class="suCloudBox">
+        <!-- 旗舰店 -->
+        <div class="flagshipShop">
+            <ul>
+                <li>
+                    <a href="javascript:;"><img src="../../assets/image/云宿.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+      </div>
     <!-- 底栏 -->
     <bottom-rail></bottom-rail>
   </div>
